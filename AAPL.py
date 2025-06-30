@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
-
 import streamlit as st
 import yfinance as yf
 import pandas as pd
@@ -33,8 +31,3 @@ if st.button("Analyze"):
 
         st.subheader("Raw Data")
         st.dataframe(data.tail())
-
-
-
-
-
