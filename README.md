@@ -16,7 +16,7 @@ This is a simple interactive web app built with Streamlit that allows users to v
 - matplotlib
 
 ## Live Demo
-👉 [Click here to try the app](https://aapl-stock-price-analyzer-ac4tex7zexkzyq9hrlqu9m.streamlit.app/)
+👉 [Click here to try the app](https://stock-price-analyzer-hlptspffzwnn6jdkszyd6g.streamlit.app/)
 
 ## License
 MIT
