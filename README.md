@@ -1,12 +1,22 @@
-# 📈 Stock Price Analyzer
+# Stock Price Analyzer
 
-This is a simple interactive web app built with Streamlit that allows users to visualize historical stock price data along with a 20-day moving average. Data is sourced in real-time from Yahoo Finance using the `yfinance` library.
+This was one of my first data projects where I wanted to get more comfortable working with real-world data and building simple web apps. I’ve always been curious about how stock prices move, so I thought it’d be interesting to create a tool that lets you explore that interactively.
 
-## Features
-- Input custom stock ticker symbols (e.g., AAPL, TSLA)
-- Choose start and end dates for analysis
-- Plot closing price with 20-day moving average
-- View raw data in a table
+Through this project, I learned how to:
+- Work with APIs using `yfinance` to pull real-time data
+- Clean and manipulate data using `pandas`
+- Plot charts with `matplotlib`
+- Build and deploy an app using Streamlit
+
+---
+
+## What It Does
+- Type in any stock symbol (like `AAPL` or `TSLA`)
+- Choose a start and end date to analyze performance
+- View a chart of the closing prices with a 20-day moving average
+- Check out the raw stock data in a table
+
+---
 
 ## Tools Used
 - Python
@@ -15,8 +25,12 @@ This is a simple interactive web app built with Streamlit that allows users to v
 - pandas
 - matplotlib
 
-## Live Demo
-👉 [Click here to try the app](https://stock-price-analyzer-hlptspffzwnn6jdkszyd6g.streamlit.app/)
+---
+
+## Try It Out
+[Live App](https://stock-price-analyzer-hlptspffzwnn6jdkszyd6g.streamlit.app/)
+
+---
 
 ## License
-MIT
+MIT License
